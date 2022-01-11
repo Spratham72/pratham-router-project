@@ -1,0 +1,44 @@
+.bodyContainer{
+    display: grid;
+    grid-template-columns: 60% 30%;
+    gap: 4%;
+    margin: 4%;
+}
+
+.bodyContainer>.left>div>img{
+        width:100%
+}
+.left>div>h2{
+    padding-bottom: 20px;
+border-bottom: 1px solid rgb(163, 162, 158);
+}
+.itemContainer{
+display: grid;
+grid-template-columns: 15% 15% 15%;
+column-gap:5%;
+
+row-gap: 3%;
+width:190%;
+}
+.itemContainer>div>div>img{
+    width:100px;
+    height: 100px;
+    
+}
+.img{
+    
+    width:60px;
+    
+}
+.itemContainer>div{
+    height:300px;
+    overflow: hidden;
+    text-align: left;
+    white-space: pre-line;
+}
+.right{
+    background-color: aquamarine;
+    margin-top: 20%;
+    height: 110%;
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/bdcb3b69213341.5b791e43d1b10.jpg");
+}
